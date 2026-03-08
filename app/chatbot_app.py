@@ -2,7 +2,7 @@
 CLA RAG Chatbot – Streamlit Demo App
 =====================================
 Interactive chatbot comparing 5 RAG pipeline architectures
-for Complex Lymphatic Anomaly (CLA) rare disease Q&A.
+for Complex Lymphatic Anomalies (CLA) rare disease Q&A.
 
 Launch:
     cd RAG_pipeline
