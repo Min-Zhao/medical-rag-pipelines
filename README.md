@@ -1,8 +1,9 @@
 # medical-rag-pipelines
 End-to-end implementations of multiple RAG architectures for medical question answering and rare disease chatbot systems.
+
 ## Overview
 
-Rare diseases like CLA affect fewer than 200,000 people in the US, yet patients and clinicians often struggle to find accurate, up-to-date information. This project demonstrates how LLM-powered chatbots with different RAG strategies can improve access to specialized medical knowledge.
+Rare diseases like CLAs affect fewer than 200,000 people in the US, yet patients and clinicians often struggle to find accurate, up-to-date information. This project demonstrates how LLM-powered chatbots with different RAG strategies can improve access to specialized medical knowledge.
 
 ### RAG Pipelines Implemented
 
@@ -14,7 +15,7 @@ Rare diseases like CLA affect fewer than 200,000 people in the US, yet patients 
 | **04 · Self-RAG** | Adaptive retrieval with self-reflection | Complex, multi-part questions |
 | **05 · Multi-hop RAG** | Iterative chain-of-thought retrieval | Multi-step reasoning queries |
 
-### Case Study: Complex Lymphatic Anomalies (CLA)
+### Case Study: Complex Lymphatic Anomalies (CLAs)
 
 CLA encompasses a spectrum of rare disorders including:
 - **Gorham-Stout Disease (GSD)** – vanishing bone disease with osteolysis
