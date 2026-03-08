@@ -1,0 +1,78 @@
+# ============================================================
+# RAG Pipeline Configuration
+# ============================================================
+# Copy this file to config_local.yaml and fill in secrets.
+# config_local.yaml is gitignored.
+
+llm:
+  provider: "openai"            # openai | ollama | azure
+  model: "gpt-4o-mini"         # gpt-4o | gpt-4o-mini | llama3 | mistral
+  temperature: 0.1
+  max_tokens: 1024
+  api_key: ""                   # set via OPENAI_API_KEY env var
+
+  # Ollama (local) settings – only used when provider = "ollama"
+  ollama_base_url: "http://localhost:11434"
+  ollama_model: "llama3"
+
+embeddings:
+  provider: "openai"            # openai | sentence_transformers
+  model: "text-embedding-3-small"
+  # For sentence_transformers:
+  st_model: "BAAI/bge-large-en-v1.5"
+
+vector_store:
+  type: "chroma"                # chroma | faiss
+  persist_directory: "./data/vector_store"
+  collection_name: "cla_documents"
+
+retrieval:
+  top_k: 5                      # number of documents to retrieve
+  similarity_threshold: 0.35    # minimum similarity score
+  chunk_size: 512               # characters per chunk
+  chunk_overlap: 64             # overlap between chunks
+
+knowledge_graph:
+  max_entities_per_chunk: 15
+  relationship_types:
+    - "TREATS"
+    - "CAUSES"
+    - "ASSOCIATED_WITH"
+    - "DIAGNOSED_BY"
+    - "MANIFESTS_AS"
+    - "INHIBITS"
+    - "UPREGULATES"
+    - "IS_A"
+
+hyde:
+  num_hypothetical_docs: 3      # number of hypothetical docs to generate
+  use_ensemble: true            # average embeddings of all hypothetical docs
+
+self_rag:
+  max_iterations: 3
+  relevance_threshold: 0.7      # minimum ISREL score to keep retrieved docs
+  support_threshold: 0.6        # minimum ISSUP score to keep a sentence
+  utility_threshold: 0.5        # minimum ISUSE score
+
+multihop:
+  max_hops: 3
+  hop_top_k: 3                  # docs retrieved per hop
+
+evaluation:
+  metrics:
+    - faithfulness
+    - answer_relevancy
+    - context_recall
+    - context_precision
+    - bert_score
+  reference_model: "gpt-4o"    # used as judge for RAGAS metrics
+
+paths:
+  dataset: "./data/pseudo_dataset/cla_documents.json"
+  eval_questions: "./data/pseudo_dataset/eval_questions.json"
+  results_dir: "./results"
+  logs_dir: "./logs"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"

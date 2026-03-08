@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": "qa_001",
+      "question": "What is Gorham-Stout disease and what causes it?",
+      "reference_answer": "Gorham-Stout disease (GSD) is an ultra-rare disorder characterized by progressive osteolysis (bone dissolution) caused by the proliferation of intraosseous lymphatic capillaries that invade and replace bone. These abnormal lymphatics secrete cytokines like IL-6 and VEGF-C that activate osteoclasts and destroy cortical and trabecular bone. A subset of cases harbor somatic PIK3CA mutations in the PI3K/AKT/mTOR signaling pathway.",
+      "category": "pathogenesis",
+      "difficulty": "medium",
+      "relevant_doc_ids": [
+        "doc_002"
+      ]
+    },
+    {
+      "id": "qa_002",
+      "question": "What is the recommended dose of sirolimus for children with CLA?",
+      "reference_answer": "For children with CLA, sirolimus is typically started at 0.8 mg/m²/day for those weighing ≤40 kg, or 1 mg/m²/day for those >40 kg. The target trough blood level is 5–15 ng/mL. Levels are checked every 2 weeks for the first 6 weeks, then monthly for 3 months, then every 3 months when stable. The maximum dose is 3 mg/m²/day. Duration is typically indefinite for systemic disease.",
+      "category": "treatment",
+      "difficulty": "medium",
+      "relevant_doc_ids": [
+        "doc_009",
+        "doc_007"
+      ]
+    },
+    {
+      "id": "qa_003",
+      "question": "How is chylothorax diagnosed and managed in CLA patients?",
+      "reference_answer": "Chylothorax is diagnosed by pleural fluid analysis showing triglycerides >110 mg/dL, lymphocyte predominance >80%, and positive Sudan III stain for chylomicrons. Management includes dietary modification (MCT diet or NPO with parenteral nutrition), octreotide (1–10 μg/kg/hour IV), sirolimus to reduce lymphangiogenesis, and thoracic duct embolization (TDE) with 72% success rate. Pleurodesis is not recommended for CLA-related chylothorax as it does not address the underlying lymphatic malformation.",
+      "category": "diagnosis_treatment",
+      "difficulty": "hard",
+      "relevant_doc_ids": [
+        "doc_010",
+        "doc_005"
+      ]
+    },
+    {
+      "id": "qa_004",
+      "question": "What genetic mutations are found in kaposiform lymphangiomatosis (KLA)?",
+      "reference_answer": "KLA is primarily driven by somatic mutations in NRAS (codons 12, 13, 61) and KRAS, found in 60–70% of cases. These are activating mutations in the RAS/MAPK/ERK signaling pathway that promote aberrant lymphatic endothelial proliferation and impair lymphatic valve formation. RAF1 mutations are rare. MEK inhibitors like trametinib target this pathway and show 67% objective response rate in NRAS/KRAS-mutant KLA.",
+      "category": "genetics",
+      "difficulty": "medium",
+      "relevant_doc_ids": [
+        "doc_004",
+        "doc_012"
+      ]
+    },
+    {
+      "id": "qa_005",
+      "question": "What serum biomarker can distinguish LAM from other CLA subtypes?",
+      "reference_answer": "Serum VEGF-D (vascular endothelial growth factor D) is the key biomarker for distinguishing LAM from other CLA subtypes. A serum VEGF-D level >800 pg/mL has 73% sensitivity and 100% specificity for LAM diagnosis. VEGF-D is produced by LAM cells and stimulates lymphangiogenesis via VEGFR-3. VEGF-D also decreases by ~42% on sirolimus therapy, making it a useful pharmacodynamic biomarker.",
+      "category": "biomarkers",
+      "difficulty": "medium",
+      "relevant_doc_ids": [
+        "doc_008",
+        "doc_006"
+      ]
+    },
+    {
+      "id": "qa_006",
+      "question": "What is pulmonary lymphatic perfusion syndrome and how is it treated?",
+      "reference_answer": "Pulmonary lymphatic perfusion syndrome (PLPS) is a manifestation of central conducting lymphatic anomaly (CCLA) where lymph flows abnormally in a retrograde direction from the thoracic duct into pulmonary lymphatics, causing diffuse pulmonary interstitial edema and respiratory distress. It is common in Noonan syndrome (PTPN11, SOS1 mutations). Treatment includes thoracic duct decompression via thoracic duct embolization or lymphovenous anastomosis. Trametinib (MEK inhibitor) has shown improved lymphatic flow on DCMRL in 5 of 7 NS-CCLA patients with RAS-pathway mutations.",
+      "category": "diagnosis_treatment",
+      "difficulty": "hard",
+      "relevant_doc_ids": [
+        "doc_005",
+        "doc_014"
+      ]
+    },
+    {
+      "id": "qa_007",
+      "question": "What is the overall response rate of sirolimus across all CLA subtypes?",
+      "reference_answer": "Based on a systematic review of 47 studies comprising 389 patients, the overall objective response rate (partial + complete response) of sirolimus across all CLA subtypes is 76% (95% CI 71–81%). By subtype: LAM has the highest response rate at 85%, followed by GLA at 79%, GSD at 71%, KLA at 68%, and CCLA at 64%. Median time to response is 3.2 months. Complete response is rare (8%). Most patients relapse within 12 months of discontinuation, supporting indefinite treatment.",
+      "category": "treatment_outcomes",
+      "difficulty": "easy",
+      "relevant_doc_ids": [
+        "doc_007"
+      ]
+    },
+    {
+      "id": "qa_008",
+      "question": "What are the main challenges CLA patients face in getting care?",
+      "reference_answer": "CLA patients face several major barriers: (1) Diagnostic delay averaging 5.1 years due to phenotypic overlap with other diseases; (2) Limited access to CLA specialists, with 68% traveling >100 miles for expert care; (3) Financial toxicity – sirolimus costs $8,000–$15,000/month without insurance; (4) Insurance denials for sirolimus (34% of patients); (5) Fatigue, dyspnea, and pain significantly impair quality of life. Key support organizations include LE&RN (lymphaticnetwork.org) and NORD.",
+      "category": "patient_experience",
+      "difficulty": "easy",
+      "relevant_doc_ids": [
+        "doc_013"
+      ]
+    },
+    {
+      "id": "qa_009",
+      "question": "How is CLA classified according to the ISSVA 2018 classification?",
+      "reference_answer": "The ISSVA 2018 classification groups complex lymphatic anomalies into five major subtypes: (1) Gorham-Stout disease (GSD) – progressive osteolysis from lymphatic invasion of bone; (2) Generalized Lymphatic Anomaly (GLA) – multifocal lymphatic malformations in bone and soft tissue without progressive osteolysis; (3) Central Conducting Lymphatic Anomaly (CCLA) – dysfunction of thoracic duct and cisterna chyli; (4) Kaposiform Lymphangiomatosis (KLA) – aggressive multisystem disorder with spindle-cell endothelium; and (5) Lymphangioleiomyomatosis (LAM) – TSC2-driven cystic lung disease in women.",
+      "category": "classification",
+      "difficulty": "easy",
+      "relevant_doc_ids": [
+        "doc_001"
+      ]
+    },
+    {
+      "id": "qa_010",
+      "question": "What is the MILES trial and what did it show about sirolimus in LAM?",
+      "reference_answer": "The MILES (Multicenter International LAM Efficacy of Sirolimus) trial is the pivotal Phase III randomized controlled trial that established sirolimus as the standard of care for LAM. It demonstrated that sirolimus stabilized lung function with FEV₁ decline of only −12 mL/year compared to −134 mL/year in the placebo group. Based on these results, sirolimus received FDA approval for LAM in 2015. Sirolimus does not reverse existing lung function decline but prevents further deterioration.",
+      "category": "clinical_trial",
+      "difficulty": "medium",
+      "relevant_doc_ids": [
+        "doc_006"
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2026-03-07T20:30:46.903602",
+    "total_questions": 10,
+    "categories": [
+      "classification",
+      "treatment",
+      "patient_experience",
+      "diagnosis_treatment",
+      "pathogenesis",
+      "genetics",
+      "treatment_outcomes",
+      "clinical_trial",
+      "biomarkers"
+    ]
+  }
+}
