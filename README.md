@@ -7,13 +7,13 @@ Rare diseases like CLAs affect fewer than 200,000 people in the US, yet patients
 
 ### RAG Pipelines Implemented
 
-| Pipeline | Description | Best For |
-|----------|-------------|----------|
-| **01 · Basic RAG** | Dense vector retrieval + LLM generation | General Q&A, fast prototyping |
-| **02 · Knowledge Graph RAG** | Entity-relation graph + vector hybrid | Mechanistic / relationship queries |
-| **03 · HyDE RAG** | Hypothetical Document Embeddings | Precision-sensitive retrieval |
-| **04 · Self-RAG** | Adaptive retrieval with self-reflection | Complex, multi-part questions |
-| **05 · Multi-hop RAG** | Iterative chain-of-thought retrieval | Multi-step reasoning queries |
+| Pipeline | Description | Best For | Reference |
+|----------|-------------|----------|----------|
+| **01 · Basic RAG** | Dense vector retrieval + LLM generation | General Q&A | Lewis et al., 2020 |
+| **02 · Knowledge Graph RAG** | Entity-relation graph + vector hybrid | Mechanistic queries | Sun et al., 2023 |
+| **03 · HyDE RAG** | Hypothetical Document Embeddings | Precision retrieval | Gao et al., 2023 |
+| **04 · Self-RAG** | Adaptive retrieval with self-reflection | Complex questions | Asai et al., 2023 |
+| **05 · Multi-hop RAG** | Iterative chain-of-thought retrieval | Multi-step reasoning | Trivedi et al., 2022 |
 
 ### Case Study: Complex Lymphatic Anomalies (CLAs)
 
